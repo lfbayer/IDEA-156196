@@ -1,0 +1,13 @@
+group 'com.lbayer'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'com.zaxxer', name: 'sansorm', version: '2.4'
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+}
